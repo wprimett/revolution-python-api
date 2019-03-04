@@ -1,6 +1,8 @@
 # BITalino (r)evolution Python API
 The BITalino (r)evolution Python API provides the needed tools to interact with BITalino (r)evolution using Python.
 
+This fork is adjusted to work with python3/[ServerBIT (r)evolution](https://github.com/BITalinoWorld/revolution-python-serverbit)
+
 ## Dependencies
 * [Python >2.7](https://www.python.org/downloads/) or [Anaconda](https://www.continuum.io/downloads) or [Python 3.4](https://www.python.org/downloads/)
 * [NumPy](https://pypi.python.org/pypi/numpy)
@@ -8,9 +10,11 @@ The BITalino (r)evolution Python API provides the needed tools to interact with 
 * [pyBluez](https://pypi.python.org/pypi/PyBluez/) (Not needed for Mac OS)
 
 ## Installation
-~~~
-pip install bitalino
-~~~
+To use specific version, clone or download the repo and copy `bitalino.py` to your working directory. From you main script, call:
+
+```
+from bitalino import *
+```
 
 ## Documentation
 http://bitalino.com/pyAPI/
